@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Florencia Maidana Ruiz Diaz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="contenedor-header">
+    <header>
+        <div class="logo">
+            <a href="https://academy.profesional.ticmas.io/academies" target="_blank">Ticmas</a>
+        </div>
+        <nav id="nav">
+            <ul class="nav-list">
+      <li>
+        <a href="#inicio" onclick="seleccionar()">Inicio</a>
+      </li>
+      <li>
+        <a href="#skills" onclick="seleccionar()">Skills</a>
+      </li>
+      <li>
+        <a href="#proyectos" onclick="seleccionar()">Proyectos</a> 
+      </li>
+      
+    </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+</div>
+  </div>
+  <div class="bloque">
+  <section id="inicio" class="inicio">
+    <div class="contenido-banner">
+    <div class="contenedor-img">
+    <img src="imágenes\foto-perfil.png" alt="mi-foto">
+    </div>
+    <h1>Florencia Maidana Ruiz Diaz</h1>
+<h2>Deseo incorpararme a una empresa para obtener mi primer experiencia laboral en IT</h2>
+<div class="redes">
+  <a href="https://github.com/flormai" target="_blank" class="btn contact-details"><i class="fab fa-github"></i></a>
+  <a href="https://twitter.com/flormaii" target="_blank" class="btn contact-details"><i class="fab fa-twitter"></i></a>
+  <a href="mailto:flormai.rd@gmail.com" target="_blank" class="btn contact-details"><i class="fas fa-at"></i></a>
+</div>
+</div>
+  </section>
+  <section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+           
+            <div class="col">
+                <h3>Técnicas</h3>
+                <div class="skill">
+                    <span>Javascript</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>HTML & CSS</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>79%</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+      
+            <div class="col">
+                <h3>Skills Profesionales</h3>
+                <div class="skill">
+                    <span>Comunicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Trabajo en Equipo</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>                  
+                <div class="skill">
+                    <span>Atención al cliente</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>84%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  
+  <section id="proyectos" class="proyectos">
+    <div class="contenido-seccion">
+  <h2 id="principal-proyectos" class="principal-proyectos"> Proyectos </h2>
+  
+  <div class="proyectos-grilla">
+  <a href="https://codepen.io/flormai/pen/poKGXxw" target="_blank" class="proyecto-pinguino">
+  <img class="proyecto-imagen" src="imágenes\Proyecto-pinguino.jpg" alt="proyecto">
+  <p class="titulo-proyectos">
+             
+              Pingüino saludando
+             
+            </p>
+          </a>
+  <a href="https://codepen.io/flormai/pen/XWEQGde" target="_blank" class="proyecto-belgrano">
+  <img class="proyecto-imagen" src="imágenes\proyecto-belgrano.jpg" alt="proyecto">
+  <p class="titulo-proyectos">
+              
+              Manuel Belgrano
+              
+            </p>
+          </a>
+  <a href="https://codepen.io/flormai/pen/YzvBojb" target="_blank" class="proyecto-java">
+  <img class="proyecto-imagen" src="imágenes\proyecto-columnas.jpg" alt="proyecto">
+  <p class="titulo-proyectos">
+              
+              Prácticas Columnas
+            
+            </p>
+          </a>
+          <a href="https://codepen.io/flormai/pen/OJoWoQJ" target="_blank" class="proyecto-java">
+            <img class="proyecto-imagen" src="imágenes\proyecto-edificios.jpg" alt="proyecto">
+            <p class="titulo-proyectos">
+                        
+                        Edificios
+                      
+                      </p>
+                    </a>
+  </div>
+    </div>
+  </section>
+  <a href="#inicio" class="arriba">
+    <i class="fa-solid fa-angles-up"></i>
+</a>
+<footer>
+
+  Proyecto Final integrador <br>
+  2023
+</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
